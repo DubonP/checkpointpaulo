@@ -1,4 +1,4 @@
-const url = 'https://github.com/DubonP'
+/* const url = 'https://github.com/DubonP'
 const btn = document.querySelector('#mygit')
 
 function openInNewTab(url){
@@ -8,4 +8,4 @@ function openInNewTab(url){
 
 btn.addEventListener('click', () => {
     openInNewTab(url)
-})
+}) */

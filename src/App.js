@@ -3,6 +3,7 @@ import './App.css';
 import './scripts.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button, Nav, Navbar } from 'react-bootstrap';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -39,5 +40,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
