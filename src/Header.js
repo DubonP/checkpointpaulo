@@ -1,4 +1,3 @@
-import react from 'react';
 import './scripts.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button, Nav, Navbar } from 'react-bootstrap';
@@ -6,7 +5,7 @@ import { Button, Nav, Navbar } from 'react-bootstrap';
 function Header() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header fixed-top">
         <Navbar bg="mygrey" variant="dark"
           sticky="top" expand="sm">
           <Navbar.Brand id='brandname'>
