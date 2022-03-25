@@ -1,0 +1,21 @@
+.title_home{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container_card_home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+body{
+    margin: 90px 1px 1px 1px;
+    background-color: rgb(173, 164, 255);
+}
+
+.title_home{
+    font-size: 3.0rem;
+    text-align: center;
+    color: #000;
+}
