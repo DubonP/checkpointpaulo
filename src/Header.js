@@ -27,13 +27,6 @@ function Header() {
         </Navbar>
         
       </header>
-
-      <body>
-        <div className='content'>
-          Conteudo
-        </div>
-      </body>
-
     </div>
   );
 }
