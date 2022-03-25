@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import react from 'react';
 import './App.css';
+import './scripts.js'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Button, Nav, Navbar } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navbar bg="mygrey" variant="dark"
+          sticky="top" expand="sm">
+          <Navbar.Brand id='brandname'>
+            Paulo Rossi
+          </Navbar.Brand>
+
+          <Navbar.Toggle />
+          <Navbar.Collapse className='right-aligned'>
+          <Nav>
+            <Nav.Link href="Sobre mim">Sobre mim</Nav.Link>
+            <Nav.Link id='mygit' >Git page</Nav.Link>
+            <Nav.Link href="Contato">Contato</Nav.Link>
+          </Nav>
+          </Navbar.Collapse>
+
+          <Button id='buttonDark' variant="dark" disabled >Dark</Button>
+          
+
+        </Navbar>
+        
       </header>
+
+      <body>
+        <div className='content'>
+          Conteudo
+        </div>
+      </body>
+
     </div>
   );
 }
