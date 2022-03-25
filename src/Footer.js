@@ -1,10 +1,10 @@
 import React from "react";
 
 function Footer() {
-    return 
+    return (
         <div>
             Lorem ipsum auhuhua haushauha shauhsuah
-        </div>
+        </div>)
 }
 
 export default Footer;
