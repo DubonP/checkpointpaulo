@@ -9,6 +9,7 @@ export default function Body() {
     <>
 
     <div className='sobremim'>
+      <p className='espaco_inicial'></p>
       <h1 id='title_sobre' className='title_sobre'>Sobre</h1>
       <div className='body_sobre'>
         <div className='card_sobre'>

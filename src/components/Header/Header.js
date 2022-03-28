@@ -14,7 +14,7 @@ function Header() {
           <Navbar.Toggle />
           <Navbar.Collapse className='right-aligned'>
           <Nav>
-            <Nav.Link href="#title_home">Sobre mim</Nav.Link>
+            <Nav.Link href="#title_sobre">Sobre mim</Nav.Link>
             <Nav.Link href="#title_home">Projetos</Nav.Link>
             <Nav.Link href="#main-footer">Contato</Nav.Link>
             <Nav.Link href='https://github.com/DubonP' target="_blank" id='mygit' >Git page</Nav.Link>
