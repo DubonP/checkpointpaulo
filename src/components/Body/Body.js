@@ -9,7 +9,7 @@ export default function Body() {
     <>
 
     <div className='sobremim'>
-      <h1 className='title_sobre'>Sobre</h1>
+      <h1 id='title_sobre' className='title_sobre'>Sobre</h1>
       <div className='body_sobre'>
         <div className='card_sobre'>
           <div className='paulo_image'>
@@ -17,20 +17,20 @@ export default function Body() {
           </div>
         </div>
         <div className='text_sobre'>
-          <li>
-            <h3>Sou do interior de Sao Paulo</h3>
+          <ul>
+            <h3>Sou de Monte Azul Paulista interior de Sao Paulo</h3>
+            <h3>Graduado em engenharia quimica pela UNAERP</h3>
             <h3>Graduado em engenharia quimica pela</h3>
             <h3>Graduado em engenharia quimica pela</h3>
             <h3>Graduado em engenharia quimica pela</h3>
             <h3>Graduado em engenharia quimica pela</h3>
-            <h3>Graduado em engenharia quimica pela</h3>
-          </li>
+          </ul>
         </div>
       </div>
     </div>
 
     <div className='conhecimentos'>
-      <h1 className="title_home">Conhecimentos</h1>
+      <h1 id='title_home' className="title_home">Projetos</h1>
 
       <div className='container_card_home'>
 

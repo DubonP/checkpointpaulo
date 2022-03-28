@@ -4,7 +4,7 @@ import { Whatsapp, Envelope, Github, Linkedin } from "react-bootstrap-icons";
 
 function Footer() {
     return (
-        <div className="main-footer">
+        <div id="main-footer" className="main-footer">
             <Navbar bg="Myfooter" variant="dark" sticky="botton" expand="sm">
             <Navbar.Toggle />
             <Navbar.Collapse className='right-aligned'>

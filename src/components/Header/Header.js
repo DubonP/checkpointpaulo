@@ -14,13 +14,14 @@ function Header() {
           <Navbar.Toggle />
           <Navbar.Collapse className='right-aligned'>
           <Nav>
-            <Nav.Link href="Sobre mim">Sobre mim</Nav.Link>
-            <Nav.Link href='https://github.com/DubonP' id='mygit' >Git page</Nav.Link>
-            <Nav.Link href="Contato">Contato</Nav.Link>
+            <Nav.Link href="#title_home">Sobre mim</Nav.Link>
+            <Nav.Link href="#title_home">Projetos</Nav.Link>
+            <Nav.Link href="#main-footer">Contato</Nav.Link>
+            <Nav.Link href='https://github.com/DubonP' target="_blank" id='mygit' >Git page</Nav.Link>
           </Nav>
           </Navbar.Collapse>
 
-          <Button id='buttonDark' variant="dark" disabled >Dark</Button>
+          <Button id='buttonDark' variant="dark" >Dark Theme</Button>
           
 
         </Navbar>
