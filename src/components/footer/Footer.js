@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
+import { ArrowRight } from "react-bootstrap-icons";
 
 function Footer() {
     return (
@@ -19,18 +20,17 @@ function Footer() {
                     </div>
 
                     <div className="col-md-3 col-sm-6">
-                        <h4>ahsuhasuahsuaushuas</h4>
+                        <h4>Redes Sociais</h4>
                         <ul className="list-unstyled">
-                            <li>auhauhuahua</li>
-                            <li>auhauhuahua</li>
+                            <Nav.Link href='https://github.com/DubonP' target="_blank" id='mygit' >Git page</Nav.Link>
+                            <Nav.Link href='https://www.linkedin.com/in/paulo-rossi-95296a4b/' target="_blank" id='mylinkedin' >Linkedin</Nav.Link>
                         </ul>
                     </div>
 
                     <div className="col-md-3 col-sm-6">
-                        <h4>ahsuhasuahsuaushuas</h4>
+                        <h4>Contato</h4>
                         <ul className="list-unstyled">
-                            <li>auhauhuahua</li>
-                            <li>auhauhuahua</li>
+                            <Nav.Link href="https://wa.me/5517981350990" target="_blank" id='mygit' >Whatsapp</Nav.Link>
                         </ul>
                     </div>
                     
