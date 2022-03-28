@@ -1,4 +1,3 @@
-import './scripts.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button, Nav, Navbar } from 'react-bootstrap';
 
@@ -16,7 +15,7 @@ function Header() {
           <Navbar.Collapse className='right-aligned'>
           <Nav>
             <Nav.Link href="Sobre mim">Sobre mim</Nav.Link>
-            <Nav.Link id='mygit' >Git page</Nav.Link>
+            <Nav.Link href='https://github.com/DubonP' id='mygit' >Git page</Nav.Link>
             <Nav.Link href="Contato">Contato</Nav.Link>
           </Nav>
           </Navbar.Collapse>
