@@ -18,7 +18,6 @@ function Header() {
             <Nav.Link href="#title_home">Projetos</Nav.Link>
             <Nav.Link href="#main-footer">Contato</Nav.Link>
             <Nav.Link href='https://github.com/DubonP' target="_blank" id='mygit' >Git page</Nav.Link>
-            <Button id='buttonDark' variant="dark" >Dark Theme</Button>
           </Nav>
           </Navbar.Collapse>
 
