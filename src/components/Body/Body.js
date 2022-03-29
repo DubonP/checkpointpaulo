@@ -13,18 +13,17 @@ export default function Body() {
       <h1 id='title_sobre' className='title_sobre'>Sobre</h1>
       <div className='body_sobre'>
         <div className='card_sobre'>
-          <div className='paulo_image'>
+          <div className='paulo_image'> 
 
           </div>
         </div>
         <div className='text_sobre'>
           <ul>
-            <h3>Sou de Monte Azul Paulista interior de Sao Paulo</h3>
-            <h3>Graduado em engenharia quimica pela UNAERP</h3>
-            <h3>Graduado em engenharia quimica pela</h3>
-            <h3>Graduado em engenharia quimica pela</h3>
-            <h3>Graduado em engenharia quimica pela</h3>
-            <h3>Graduado em engenharia quimica pela</h3>
+            <li>Sou de Monte Azul Paulista interior de Sao Paulo</li>
+            <li>Graduado em Engenharia Quimica pela UNAERP</li>
+            <li>Apaixonado por tecnologia</li>
+            <li>Estudando full stack developer na Digital House</li>
+            <li>Produtor de cerveja nas horas vagas</li>
           </ul>
         </div>
       </div>
